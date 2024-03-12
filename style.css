@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#headerApp{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 68, 255);
+    padding: .5rem 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: violet;
+}
+
+#BtnInit{
+    width: 110px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#BtnInit button{
+    cursor: pointer;
+    padding: .5rem;
+    border-radius: 5px;
+    background-color: violet;
+    color: white;
+    transition: all 1s ease;
+}
+#BtnInit button:hover{
+    background-color: rgb(236, 89, 236);
+}
+
+#container{
+ max-width: 600px;
+ min-height: 50px;
+ margin: auto;
+ padding: 1rem;
+ margin-top: 50px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.show{
+    background-color:rgb(0, 68, 255);
+    width: 6rem;
+    height: 6rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    color: violet;
+    font-weight: 500;
+}
